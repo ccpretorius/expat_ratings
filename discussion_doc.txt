@@ -34,14 +34,14 @@ Register with email
 Search Process
 - Select category
 - Select relevant category descriptions per category (eg. from category_housing_description herebelow)
-- Sort category elements
+- Sort category elements (This sort should be a list of drag and drop - bootstrapmb has this I think)
 - Display Search Result View
 - Rate a listing after it has been visited (system should send out an email requestiong this)
 Choice for a search to be seen by a developer
 Choice to show a developer that his listing has been visited
 
 D	Search Result View
-Do a filtered search based on sorting the elements of a category in order of preference
+Do a filtered search based on sorting the elements of a category in order of preference (This sort should be a list of drag and drop - bootstrapmb has this I think)
 - View A: People that correlates highly with your profile(80%+), rated these places as follows (with the choice to filter for lower % correlations)
 - View B: People with your demographic profile rated these places as follows (with the choice to filter by any of the demographic elements)
 - View C: People with your personality profile rated these places as follows(with the choice to filter by all psycho-profile elements
