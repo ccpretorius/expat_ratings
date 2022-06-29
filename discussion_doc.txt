@@ -1,0 +1,208 @@
+
+A	DESCRIPTION
+Listing site to search for accommodation and other categories of To-Do's for expatriates
+- The listing in a specific category gets rated by the lister and the users or visitors to a category
+A lister order the elements of his search from most preferded to least preferred (the elements of a category)
+A searcher order the elements of his search from most preferded to least preferred (the elements of a category)
+The searcher's search result are filtered for those results that correleate the most with the lister's list of preferred elements.  Ratings are dynamically adjusted/weighted for the preferered order of the search
+- Category listing area
+- Category view area
+- Site forum (Filtered by category, demographics and rating elements)
+- Billing module for developers/management agents
+- Maintenance schedule for developers/management agents
+
+postgresql database
+
+
+
+B	SEARCHERS
+FILTERING
+1. Order the RATING ELEMENTS for a specific search CATEGORY from most preferred to least preferred
+2. If you are listing for a CATEGORY, rate each item on a scale of 1 - 5 with 5 being 5 stars
+3. The system will calculate a PRIORITY CORRELATION indicating the level of correlation between individuals' preferences based on their Ordered Lists of Preferences
+4. The system will calculate a new WEIGHTED AVERAGE for a listing per individual
+5. The system will calculate a new AVERAGE WEIGHTED AVERAGE for all Raters.
+6. You can filter a group of Raters for PRIORITY CORRELATION or by any demographic characteristics
+7. Searches can be logged so that it can be resurrected for new listers
+8. If you are not a Lister, you can also rate each item in a Listing after you've had contact with the Listing
+
+
+C	SEARCHING
+Register with email
+- Input demographic details(optional)
+- Input Psycho Profile (optional)
+Search Process
+- Select category
+- Select relevant category descriptions per category (eg. from category_housing_description herebelow)
+- Sort category elements
+- Display Search Result View
+- Rate a listing after it has been visited (system should send out an email requestiong this)
+Choice for a search to be seen by a developer
+Choice to show a developer that his listing has been visited
+
+D	Search Result View
+Do a filtered search based on sorting the elements of a category in order of preference
+- View A: People that correlates highly with your profile(80%+), rated these places as follows (with the choice to filter for lower % correlations)
+- View B: People with your demographic profile rated these places as follows (with the choice to filter by any of the demographic elements)
+- View C: People with your personality profile rated these places as follows(with the choice to filter by all psycho-profile elements
+
+
+E	Categories
+housing
+shops
+sport_clubs
+restaurants
+beaches
+relaxation_destinations
+golf
+tennis
+trips
+
+F	psycho_profile
+outgoing
+meeting_people
+luxury
+stylish
+animal_free
+functional
+kids_free
+busy_environment
+Calm environment
+haning_out_at_home
+self_sufficient_socially
+entertainment_at_home
+solitudinal
+exceptionally_well-travelled
+entertainers
+long_term_stayers
+short_term_stayers
+nerdy
+
+G	demographics
+country_origin
+gender
+age
+ethniciy
+couple
+single
+children_live_ins
+parents_live_ins
+education (see list below)
+profession (see list below)
+activities (see list below)
+interests
+
+
+
+H	category_housing_description
+estate_name
+unit_number
+street address
+suburb
+city
+rooms
+bathrooms
+balcony
+private_garden
+floor_level
+size (small/medium/large)
+ac
+central_dstv
+Display picture upload
+Other Photo Uploads
+Rental period (months)
+
+I	category_housing_search_elements
+24/7 power
+Time delay to generator switch over
+AC Maintenance
+Interesting finishings
+Water quality for laundry
+Water quality for personal hygiene
+Communication with the onsite manager
+Clear consistent billing
+Cleanliness and neatness
+Quality of inhabitants
+Traffic into area
+Traffic out of area
+Nearby things to do
+General state of area outside estate
+Allow animals
+Kids
+Availability of facilities
+Luxury
+Tranquial atmosphere
+Boisterous inhabitants
+Easygoing inhabitants
+Balcony
+Private garden
+Parking
+
+
+J	education
+high_school
+college
+univerisity
+post_graduate
+trade_specialist
+
+
+K	profession
+academic
+administration
+sales
+own_business
+trade_specialist
+executive
+education
+arts
+schooling
+
+L	activities
+tennis
+golf
+restaurants
+socialising
+card_games
+entertainment_home
+
+
+M	LISTINGS
+Lister/developer register with email and password
+Choose between Developer/managment agent listing or Inhabitant listing
+Listing Process for developer
+- Select category
+- Input details for category_description
+- Sort category elements ACCORDING TO THE PROJECTED PREFERED ORDER OF THE IDEAL CLIENTS
+- Rate category elements
+- The Developer can activate the management agent module that will allocate a specific unit number to a specific email.
+- The renter receives a password for accessing linked to his email/username
+- An existing lister can relist on the managing agent site on the management agent module (he will see both his private listing and that of the agent on his private listing side, but only the one listing on the agent module listing side
+
+
+
+N	DEVELOPER VIEW
+Recent searched on his listings
+Recent ratings of his properties
+Ratings by inhabitants
+All ratings
+Ratings filtered for
+- category_housing_search_elements
+- demographics
+- psycho_profile
+
+
+
+O	Management agent module
+- Agent can read in unit numbers with multiple listings into an estate
+- Agent can read in electricity units used per month and a cost per unit and bill it out in the account area of the registered users for that estate
+- Agent can allocate generator service charge accross apartments (one-by_one or based on equal usuage or apon predetermined weight between different types of units
+- Rent can be charged
+- Periodic service fee can be charged
+- Special service fee can be charged
+- Costing report generated for the whole establishment and reflected in the account section of a renter
+
+P	Maintenance module
+- calender reflecting maintenance dates for facilities like water, generator, ac, washing machines
+- estate wide or per apartment
+- dates reflected in the accounts section of a renter
