@@ -12,6 +12,7 @@ The searcher's search result are filtered for those results that correleate the 
 - Maintenance schedule for developers/management agents
 
 postgresql database
+Weighting logarithm https://docs.google.com/spreadsheets/d/1pTvCNMnF2B1KTD5gA91z1Wm1i51abqTZ6C7yWY7InOY/edit?usp=sharing
 
 
 
