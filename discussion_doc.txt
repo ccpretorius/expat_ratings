@@ -4,7 +4,7 @@ Listing site to search for accommodation and other categories of To-Do's for exp
 - The listing in a specific category gets rated by the lister and the users or visitors to a category
 A lister order the elements of his search from most preferred to least preferred (the elements of a category)
 A searcher order the elements of his search from most preferred to least preferred (the elements of a category)
-The searcher's search result are filtered for those results that correleate the most with the lister's list of preferred elements.  Ratings are dynamically adjusted/weighted for the preferred order of the search
+The searcher's search result are filtered for those results that correlate the most with the lister's list of preferred elements.  Ratings are dynamically adjusted/weighted for the preferred order of the search
 - Category listing area
 - Category view area
 - Site forum (Filtered by category, demographics and rating elements)
