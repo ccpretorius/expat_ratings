@@ -5,8 +5,8 @@ OBJECTIVE
   iii) Getting proficient in creating filtered searches - filtered for people with similar profiles as yours or weighted interest ratings in a specific category. (Almost like Amazon "People that read this book you are looking at also bought Book X and rated it **** ")
 2. Creating a software that people can use to find what they are looking for in certain categories (Specifically focussed on expatriates working in cities)
 3. The Housing/Accommodation category needs to be built out completely
-4. Listings from individuals should be possible (not belonging offically to a  group)
-5. A Private Lister can invite people to join a specific group for exchange of ideas or info so that their ratings can be averaged/wieghted and viewed by a management agent of the estate/complex. There should be a specific view for such groupings - coupled to the estate name
+4. Listings from individuals should be possible (not belonging offically to a group)
+5. A Private Lister can invite people to join a specific group for exchange of ideas or info so that their ratings can be averaged/weighted and viewed by a management agent of the estate/complex. There should be a specific view for such groupings - coupled to the estate name
 6. The site should have a forum that could be filtered for category or group or developer or subject.  On a group view the the forum would automatically be filtered for that group 
 6. Likewise; A person that can facilitate a group like the managing agent of a housing estate can create a group on which the individuals can be invited to register.  This group wourld be extendable with the developers module that track users per unit number and which allows for maintenance schedules and billing
 
