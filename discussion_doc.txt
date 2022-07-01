@@ -27,7 +27,7 @@ Weighting logarithm: https://docs.google.com/spreadsheets/d/1pTvCNMnF2B1KTD5gA91
 
 
 
-B	SEARCHERS
+B	VISITIORS THAT ONLY SEARCH AND DONT LIST ANYTHING
 FILTERING
 1. Order the RATING ELEMENTS for a specific search CATEGORY from most preferred to least preferred
 2. If you are listing for a CATEGORY, rate each item on a scale of 1 - 5 with 5 being 5 stars
@@ -39,11 +39,11 @@ FILTERING
 8. If you are not a Lister, you can also rate each item in a Listing after you've had contact with the Listing
 
 
-C	SEARCHING
+C	SEARCHING PROCESS
 Register with email
 - Input demographic details(optional)
 - Input Psycho Profile (optional)
-Search Process
+Search Flow
 - Select category
 - Select relevant category descriptions per category (eg. from category_housing_description herebelow)
 - Sort category elements (This sort should be a list of drag and drop - bootstrapmb has this I think)
