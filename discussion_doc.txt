@@ -1,5 +1,16 @@
+OBJECTIVE
+1. Training on certain areas
+  i)   Creating and manipulating drag and drop lists (maybe in bootstrapmb)
+  ii)  Creating an API for a mobile version
+  iii) Getting proficient in creating filtered searches - filtered for people with similar profiles as yours or weighted interest ratings in a specific category. (Almost like Amazon "People that read this book you are looking at also bought Book X and rated it **** ")
+2. Creating a software that people can use to find what they are looking for in certain categories (Specifically focussed on expatriates working in cities)
+3. The Housing/Accommodation category needs to be built out completely
+4. Listings from individuals should be possible (not belonging offically to a  group)
+5. A Private Lister can invite people to join a specific group for exchange of ideas or info so that their ratings can be averaged/wieghted and viewed by a management agent of the estate/complex. There should be a specific view for such groupings - coupled to the estate name
+6. The site should have a forum that could be filtered for category or group or developer or subject.  On a group view the the forum would automatically be filtered for that group 
+6. Likewise; A person that can facilitate a group like the managing agent of a housing estate can create a group on which the individuals can be invited to register.  This group wourld be extendable with the developers module that track users per unit number and which allows for maintenance schedules and billing
 
-A	DESCRIPTION
+A	GENERAL DESCRIPTION OF BASIC FUNCTIONALITIES
 Listing site to search for accommodation and other categories of To-Do's for expatriates
 - The listing in a specific category gets rated by the lister and the users or visitors to a category
 A lister order the elements of his search from most preferred to least preferred (the elements of a category)
@@ -159,6 +170,7 @@ education
 arts
 schooling
 
+
 L	activities
 tennis
 golf
@@ -170,15 +182,16 @@ entertainment_home
 
 M	LISTINGS
 Lister/developer register with email and password
-Choose between Developer/managment agent listing or Inhabitant listing
-Listing Process for developer
+Choose between Developer(management agent) listing or Private listing
+Listing Process for Developer
 - Select category
 - Input details for category_description
 - Sort category elements ACCORDING TO THE PROJECTED PREFERED ORDER OF THE IDEAL CLIENTS
 - Rate category elements
 - The Developer can activate the management agent module that will allocate a specific unit number to a specific email.
-- The renter receives a password for accessing linked to his email/username
-- An existing lister can relist on the managing agent site on the management agent module (he will see both his private listing and that of the agent on his private listing side, but only the one listing on the agent module listing side
+- The renter receives a password for accessing linked to his email
+- The renter will have reflected on his logged in view his own private listings as well as his view from the developer(if any)
+- An existing lister can relist on the managing agent site on the management agent module (he will see both his private listing and that of the Developer/agent on his private listing side, but only the one listing on the agent module listing side
 
 
 
